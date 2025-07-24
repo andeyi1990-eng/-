@@ -10,13 +10,17 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="`Gmeek-html<iframe width='1108' height='623' src='https://www.youtube.com/embed/NT03ObbGct4' title='[1～6讲/全8讲] 庄子哲学导读/陈怡 清华大学公开课 | 庄子内篇系列解读 逍遥游 齐物论 人世间 庄子思想智慧 道德经' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>。">
-<meta property="og:title" content="来，研究一下外部链接">
-<meta property="og:description" content="`Gmeek-html<iframe width='1108' height='623' src='https://www.youtube.com/embed/NT03ObbGct4' title='[1～6讲/全8讲] 庄子哲学导读/陈怡 清华大学公开课 | 庄子内篇系列解读 逍遥游 齐物论 人世间 庄子思想智慧 道德经' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>。">
+<meta name="description" content="我只是不懂英语，我应该理解它的英文单词
+Gmeek-html就是这后面可以插入超链
+'Gmeek-html加超链后在点一个小点，'中文符号是双引号，英文符号就是小点''''''''''''''''''''''''就是这样的。">
+<meta property="og:title" content="终于学会了加外部视频">
+<meta property="og:description" content="我只是不懂英语，我应该理解它的英文单词
+Gmeek-html就是这后面可以插入超链
+'Gmeek-html加超链后在点一个小点，'中文符号是双引号，英文符号就是小点''''''''''''''''''''''''就是这样的。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://andeyi1990-eng.github.io/andeyi/post/lai-%EF%BC%8C-yan-jiu-yi-xia-wai-bu-lian-jie.html">
+<meta property="og:url" content="https://andeyi1990-eng.github.io/andeyi/post/zhong-yu-xue-hui-le-jia-wai-bu-shi-pin.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/222046470?v=4">
-<title>来，研究一下外部链接</title>
+<title>终于学会了加外部视频</title>
 
 
 
@@ -49,7 +53,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">来，研究一下外部链接</h1>
+<h1 class="postTitle">终于学会了加外部视频</h1>
 <div class="title-right">
     <a href="https://andeyi1990-eng.github.io/andeyi" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -57,7 +61,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/andeyi1990-eng/andeyi/issues/5" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/andeyi1990-eng/andeyi/issues/8" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,7 +77,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>`Gmeek-html&lt;iframe width="1108" height="623" src="https://www.youtube.com/embed/NT03ObbGct4" title="[1～6讲/全8讲] 庄子哲学导读/陈怡 清华大学公开课 | 庄子内篇系列解读 逍遥游 齐物论 人世间 庄子思想智慧 道德经" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;</p></div>
+<div class="markdown-body" id="postBody"><p>我只是不懂英语，我应该理解它的英文单词<br>
+Gmeek-html就是这后面可以插入超链<br>
+'Gmeek-html加超链后在点一个小点，'中文符号是双引号，英文符号就是小点''''''''''''''''''''''''就是这样的。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">❤️ 转载文章请注明出处，谢谢！❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -132,7 +138,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
